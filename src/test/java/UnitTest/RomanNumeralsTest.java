@@ -18,4 +18,17 @@ public class RomanNumeralsTest {
 		//assert
 		Assert.assertEquals(expectedResult, actualResult);
 	}
+	@Test
+	public void should_return_II_when_input2(){
+		//arrange
+		RomanNumerals converter = new RomanNumerals();
+		int inputNumber = 2;
+		String expectedResult = "II";
+		
+		//act
+		String actualResult = converter.convert(inputNumber);
+		
+		//assert
+		Assert.assertEquals(expectedResult, actualResult);
+	}
 }
