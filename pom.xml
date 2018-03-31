@@ -38,15 +38,16 @@
   </dependencies>
   
   <distributionManagement>
+    <repository>
           <id>romanConverter</id>
       <name>Internal Releases</name>
       <url>http://localhost:8081/repository/maven-releases/</url>
-   
-    <repository>
+   </repository>
+    <snapshotRepository>
       <id>romanConverter</id>
       <name>Internal Releases</name>
       <url>http://localhost:8081/repository/maven-snapshots/</url>
-    </repository>
+    </snapshotRepository>
   </distributionManagement>
     
 </project>
